@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css or create a separate CSS file */
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Padding at the top and bottom of the navbar */
+}
+
+.nav-list {
+  list-style: none ;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #00f; /* Color on hover */
+}
+
+/* Example CSS for the Skills component */
+/* Example CSS for the Skills component */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "•"; /* Bullet character */
+  color: black; /* Bullet color */
+  position: absolute;
+  left: 0;
+}
+
+/* Example CSS for the Education component */
+.education-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.education-item h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.education-item p {
+  margin: 5px 0;
+}
+
+.education-item p:last-child {
+  font-weight: bold;
+}

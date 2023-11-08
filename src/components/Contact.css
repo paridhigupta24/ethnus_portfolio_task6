@@ -1,0 +1,120 @@
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Thank You Page */
+  .thank-you {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Icons */
+  /* Add this CSS to your project's main CSS file (e.g., App.css) or a separate CSS file */
+
+/* Style for the container of social media icons */
+/* CSS for the contact footer social media icons */
+.contact-info {
+    text-align: center;
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
+  
+  .contact-info p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  .contact-info span {
+    padding: 0 10px; /* Add space around the bar */
+    border-right: 1px solid #333; /* Add a vertical bar using a border */
+  }
+  
+.contact-footer {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .contact-footer a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333; /* Icon color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-footer a:hover {
+    color: #007BFF; /* Hover color */
+  }
+  
+  
+  /* Copyright */
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

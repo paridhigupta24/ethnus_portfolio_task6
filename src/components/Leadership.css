@@ -1,0 +1,53 @@
+.leadership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .leadership-item {
+    width: 70%;
+    background-color: rgba(222, 184, 135, 0.553);
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.59);
+    padding: 10px;
+    text-align: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+  }
+  
+  .leadership-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .leadership-item h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .leadership-item .expand-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #030303;
+    margin-top: 10px;
+  }
+  
+  .leadership-item.expanded {
+    max-height: 400px; /* Adjust as needed */
+  }
+  
+  .leadership-item .description {
+    font-size: 15px;
+    display: none;
+  }
+  
+  .leadership-item.expanded .description {
+    display: block;
+    margin-top: 20px;
+  }
+  
