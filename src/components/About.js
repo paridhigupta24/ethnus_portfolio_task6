@@ -19,11 +19,10 @@ const About = () => {
           class="small-profile-image"
         />
         <p>
-          Hi, I'm Paridhi Gupta, a Full Stack Developer currently pursuing my Bachelor's degree at VIT Vellore.
+        I am currently pursuing a B.Tech in Computer Science Engineering with a specialization in Bioinformatics at Vellore Institute Of Technology, maintaining a strong CGPA of 8.76. My technical expertise includes proficiency in Java, DSA, HTML, CSS, JavaScript, Python, React, MongoDB, and a solid understanding of OS, DBMS, Computer Networks, OOPS, and SQL.
         </p>
         <p>
-          My journey in the world of technology has been an exciting one, where I've honed my skills to become proficient in programming, skilled in problem-solving, and committed to contributing effectively within a global team environment while providing innovative solutions.
-        </p>
+        I have a passion for solving complex problems and implementing innovative solutions, demonstrated through various academic projects and practical applications. I am committed to continuous learning and have acquired certifications in MERN Full Stack Development and AWS Cloud Foundation, enhancing my skill set and adaptability in the ever-evolving field of technology. </p>
       </div>
       <div className="right-content">
         <div className="tab-buttons">

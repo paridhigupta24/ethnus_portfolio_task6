@@ -6,20 +6,26 @@ const Skills = () => {
       <h3>Skills</h3>
       <div className="columns">
         <div className="column">
-          <strong>Programming Languages:</strong>
+          <strong>Computer Fundamentals</strong>
           <ul>
-            <li>C/C++</li>
-            <li>Python</li>
-            <li>Java (beginner)</li>
+            <li>Operating Systems</li>
+            <li>DBMS</li>
+            <li>Computer Networks</li>
+            <li>OOPS</li>
+            <li>SQL</li>
           </ul>
         </div>
         <div className="column">
-          <strong>Web Development:</strong>
+          <strong>Technical Skills</strong>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React.js</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>K-Means</li>
           </ul>
         </div>
       </div>
@@ -29,18 +35,6 @@ const Skills = () => {
           <ul>
             <li>AWS Cloud Foundation</li>
             <li>MERN Full Stack</li>
-          </ul>
-        </div>
-        <div className="column">
-          <strong>Machine Learning:</strong>
-          <ul>
-            <li>K-Means</li>
-          </ul>
-        </div>
-        <div className="column">
-          <strong>Data Visualization:</strong>
-          <ul>
-            <li>Matplotlib</li>
           </ul>
         </div>
       </div>

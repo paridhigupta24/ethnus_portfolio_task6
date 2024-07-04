@@ -3,20 +3,20 @@ import './Project.css'; // Import the CSS file for styling
 
 const projects = [
   {
-    name: 'Netflix Clone',
-    description: 'A Netflix clone built using React and Firebase.',
+    name: 'Hospital Management System',
+    description: 'Implemented a robust Hospital Management System streamlining patient data management, appointment scheduling, and prescription tracking.      STACK USED: React, Node.js, MongoDB.',
     
-    githubLink: 'https://github.com/paridhigupta24/Netflix_clone',
+    githubLink: 'https://github.com/paridhigupta24/user_page',
   },
   {
-    name: 'Hangman Game',
-    description: 'A classic Hangman game developed in JavaScript.',
+    name: 'Weather Forecast Prediction',
+    description: 'The page takes the city name as input and gives the weather forecast with a 90% accuracy.         STACK USED: HTML, CSS, Javascript (ES6+), Bootstrap, OpenWeatherMap API. ',
    
-    githubLink: 'https://github.com/hangman-game',
+    githubLink: 'https://github.com/paridhigupta24/WeatherAppe',
   },
   {
     name: 'Color Detection Model',
-    description: 'A machine learning model to detect colors in images.',
+    description: 'A machine learning model to detect colors in images.        STACK USED: Machine Learning- OpenCV, K-Means, MatPlotLib',
   
     githubLink: 'https://github.com/paridhigupta24/Color_detection',
   },
